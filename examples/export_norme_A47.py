@@ -18,6 +18,11 @@ if __name__ == "__main__":
         transactions = book.transactions
 
         env = jinja2.Environment(trim_blocks=True, lstrip_blocks=True)
+        def create_environment():
+        env = Environment(
+           autoescape=True,
+           loader=LOADER,
+        env.filters['color'] = render_color
         xml = env.from_string(
             u"""
 <?xml version="1.0"?>
