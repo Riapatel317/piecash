@@ -12,7 +12,7 @@ coverage==5.3
 decorator==4.4.2
 distlib==0.3.1
 docutils==0.16
-filelock==3.0.12
+filelock==3.20.3
 idna==2.10
 imagesize==1.2.0
 importlib-metadata==2.0.0
@@ -61,7 +61,7 @@ tox==3.20.1
 tox-pipenv==1.10.1
 traitlets==4.3.3
 tzlocal==2.1
-urllib3==1.25.11
+urllib3==2.6.3
 virtualenv==20.0.35
 virtualenv-clone==0.5.4
 wcwidth==0.2.5
